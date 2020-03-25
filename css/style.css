@@ -1,0 +1,290 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Abel';
+}
+
+/* Start Framework */
+
+body{
+    background-color: #212B36;
+    color: #C0C0C0;
+    font-size: 1.5vw;
+}
+h1{
+    font-size: 2.4vw;
+}
+
+a{
+    text-decoration: none;
+    color: #C0C0C0;
+}
+
+/* End Framework */
+
+/* Start Nav.*/
+.nav{
+    background-color: #212B36;
+    position: sticky;
+    top: 0;
+    overflow: auto;
+    z-index: 1;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: .7%;
+}
+.fa{
+    font-size:1.8vw;
+}
+a:hover{
+    color: white;
+}
+.navv{
+    background-color: none;
+}
+/* End Nav.*/
+
+/* Start Header */
+
+.header{
+    text-align: center;
+    position: relative
+}
+.header .text{
+    font-size: 4vw;
+    position: absolute;
+    top: 28%;
+    left: 40.5%;
+    text-align: center;
+    color:#454F5B;
+}
+.header .textt{
+    font-size: 4vw;
+    position: absolute;
+    top: 17%;
+    left: 35.5%;
+    text-align: center;
+    color:#454F5B;
+}
+.header img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* End Header */
+
+
+/* Start Personal Info. */
+
+.container{
+    max-width: 100%;
+    height: auto;
+    background-color: #D3D3D3;
+    color: #212B36;
+}
+.personal-info{
+    width: 100%;
+    height: auto;
+    display: inline-block;
+    border: 1px solid #C0C0C0;
+    padding: 3%;
+    text-align: center;
+}
+.container h2{
+    margin-bottom: .5%;
+}
+.container .personal-hr{
+    max-width: 20%;
+    height: auto;
+    border: 1px solid #50B83C;
+    position: relative;
+    left: 40%;
+}
+.container .external-info{
+    text-align: left;
+}
+/* End Personal Info. */
+
+
+/* Start Projects */
+
+.pro{
+    padding: 3%;
+    margin: 3% 0%;
+    text-align: center;
+}
+.pro h2{
+    color: white;
+    margin-bottom: .5%;
+}
+.pro .projects-hr{
+    max-width: 7.5%;
+    height: auto;
+    border: 1px solid #50B83C;
+    position: relative;
+    left: 46.2%;
+}
+.projects{
+    max-width: 100%;
+    height: auto;
+    padding: 1% 3%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+.projects p{
+    font-size: 1.2vw
+}
+.projects a{
+    color: white;
+    font-size: 1.7vw;
+}
+.pro1, .pro2, .pro3, .pro4, .pro5{
+    padding: 2%;
+    width: 33.3%;
+    text-align: center;
+}
+.projects .pro1 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+.projects .pro2 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+.projects .pro3 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+.projects .pro4 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+.projects .pro5 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+
+/* End Projects */
+
+/* Start Testimonials */
+
+.test{
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 3% 0%;
+    background-color: white;
+    padding: 3%;
+    color: #212B36;
+}
+.test img{
+    max-width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+.test .test-hr{
+    max-width: 7.5%;
+    height: auto;
+    border: 1px solid lightgreen;
+    position: relative;
+    left: 46.2%;
+    margin-top: .5%;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* End Testimonials */
+
+
+/* Start Footer*/
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+}
+.about{
+    max-width: 30%;
+    height: auto;
+    padding: 1% 3%;
+}
+.about h1{
+    color: #C0C0C0;
+}
+.about a{
+    border: 1px solid #C0C0C0;
+    padding: 1% 2%;
+    line-height: 3
+}
+.about a:hover{
+    background-color: white;
+    color: #212B36;
+}
+.social{
+    text-align: center;
+    max-width: 40%;
+    height: auto;
+    padding: 1% 3%;
+}
+.social a span{
+    width: 17%;
+    height: 17%;
+    border: 1px solid #C0C0C0;
+    border-radius: 50%;
+    margin: 1%;
+}
+.social a span:hover{
+    background-color: white;
+    color: #212B36;
+}
+.mail{
+    max-width: 30%;
+    height: auto;
+    padding: 1% 3%;
+}
+textarea, .email, .sub{
+    margin: 1.5%;
+    padding: 1.5%;
+    background-color: #DFE3E8;
+}
+.sub{
+    background-color: #212B36;
+    color: #C0C0C0;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color: white;
+    color: #212B36;
+}
+.copyright{
+    text-align: center;
+    padding: 1%;
+    color: #C0C0C0;
+}
+
+/* End Footer*/
+
+
+
+
+
+
+
+
