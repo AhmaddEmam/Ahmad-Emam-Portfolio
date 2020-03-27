@@ -145,7 +145,7 @@ a:hover{
     color: white;
     font-size: 1.7vw;
 }
-.pro1, .pro2, .pro3, .pro4, .pro5{
+.pro1, .pro2, .pro3, .pro4, .pro5, .pro6{
     padding: 2%;
     width: 33.3%;
     text-align: center;
@@ -171,6 +171,11 @@ a:hover{
     border-radius: 2%;
 }
 .projects .pro5 img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 2%;
+}
+.projects .pro6 img{
     max-width: 100%;
     height: auto;
     border-radius: 2%;
